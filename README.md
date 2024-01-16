@@ -21,7 +21,6 @@ Once you clone the repository and open it in your terminal and type in node inde
 
 ## Badges
 
-![GitHub deployments](https://img.shields.io/github/deployments/anamorai/README-Generator/github-pages)
 ![GitHub top language](https://img.shields.io/github/languages/top/anamorai/README-Generator)
 
 
