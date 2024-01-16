@@ -1,101 +1,73 @@
-# Module 11 Challenge: Professional README Generator
+# README Generator
 
-## Your Task
-
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. 
-
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
-
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README Guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) as a reminder of everything that a high-quality, professional README should contain. 
-
-The application will be invoked by using the following command:
+I have been tasked with creating a command-line application that dynamically generates a professional README.md file from a user's input. The application will be invoked by using the following command:
 
 ```bash
 node index.js
 ```
 
-## User Story
+## Installation
 
-* As a developer, I want a README generator so that I can quickly create a professional README for a new project
+- To open the repository and access cloning please follow this link: https://github.com/anamorai/README-Generator
 
-## Acceptance Criteria
+- To see the video walk-through please follow this link: https://drive.google.com/file/d/1PN0kZGZz060VxeBdkfn6dG_eBuIo63mV/view
 
-* Create a command-line application that accepts user input.
-  * When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
-    * The title of my project 
-    * Sections entitled:
-      * Description 
-      * Table of Contents 
-      * Installation 
-      * Usage 
-      * License 
-      * Contributing 
-      * Tests 
-      * Questions
-    * When a user enters the project title then it is displayed as the title of the README
-    * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
-    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-    * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
+## Usage 
 
-## Getting Started
+Once you clone the repository and open it in your terminal and type in node index.js it will begin the series of prompts. It look as follows:
 
-Here are some guidelines to help you get started:
-
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
-
-## Grading Requirements
-
-This Challenge is graded based on the following criteria: 
-
-### Deliverables: 20%
-
-* A sample README generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Walkthrough Video: 27%
-
-* A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
-
-* The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-* The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
+![This is the first thing you will see after opening the website](assets/images/demo.png)
 
 
-## Review
+## Badges
 
-You are required to submit the following for review:
+![GitHub deployments](https://img.shields.io/github/deployments/anamorai/README-Generator/github-pages)
+![GitHub top language](https://img.shields.io/github/languages/top/anamorai/README-Generator)
 
-* A walkthrough video demonstrating the functionality of the application.
 
-* A sample README.md file for a project repository generated using your application
+## Features
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+* A command-line application that accepts user input.
+* A README.md is generated with:
+  * The title of my project 
+  * Sections entitled:
+  * Description 
+  * Table of Contents 
+  * Installation 
+  * Usage 
+  * License 
+  * Contributing 
+  * Tests 
+  * Questions
+* A list of options provided for license and then a badge for that license is added near the top of the README.
+* When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
+* When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
+* When a user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README
 
----
+## Credits
 
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+I would like to reference my tutor Samuel Cordova for guiding me with this task as well as my course instructore Pratikto Ariestyadi for teaching me everything I would need to know to complete it.
+
+## License
+
+MIT License
+
+Copyright (c) [2024] [Anastasia Moraites]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
